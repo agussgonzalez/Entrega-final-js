@@ -1,0 +1,46 @@
+[
+  {
+    "nombre": "Mercurio",
+    "distanciaDesdeTierra": "0.39 UA",
+    "condiciones": "Extremas",
+    "dangers": [
+      "Radiación",
+      "Temperaturas extremas"
+    ],
+    "habitabilidad": "No habitable",
+    "descripcion": "Mercurio es el planeta más cercano al Sol y tiene una órbita muy excéntrica."
+  },
+  {
+    "nombre": "Venus",
+    "distanciaDesdeTierra": "0.72 UA",
+    "condiciones": "Inhóspitas",
+    "dangers": [
+      "Atmósfera tóxica",
+      "Efecto invernadero"
+    ],
+    "habitabilidad": "No habitable",
+    "descripcion": "Venus es conocido por su atmósfera densa y su temperatura superficial extremadamente alta."
+  },
+  {
+    "nombre": "Tierra",
+    "distanciaDesdeTierra": "1 UA",
+    "condiciones": "Diversas",
+    "dangers": [
+      "Cambio climático",
+      "Contaminación"
+    ],
+    "habitabilidad": "Habitable",
+    "descripcion": "La Tierra es nuestro hogar, conocido por su diversidad biológica y sus condiciones adecuadas para la vida."
+  },
+  {
+    "nombre": "Marte",
+    "distanciaDesdeTierra": "1.52 UA",
+    "condiciones": "Hostiles",
+    "dangers": [
+      "Atmósfera delgada",
+      "Radiación"
+    ],
+    "habitabilidad": "Potencialmente habitable",
+    "descripcion": "Marte es conocido por su color rojizo debido a la oxidación del hierro en su superficie."
+  }
+]

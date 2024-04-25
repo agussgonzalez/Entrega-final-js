@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Viaje Espacial</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <header>
+    <h1>Simulador de Viaje Espacial</h1>
+  </header>
+  <main>
+    <div id="app">
+      <button id="empezar-viaje">Empieza tu viaje al espacio</button>
+      <div id="seleccionar-nave" style="display: none;">
+        <h2>Selecciona tu nave espacial</h2>
+        <div id="naves-container"></div>
+      </div>
+      <div id="detalles-nave" style="display: none;"></div>
+      <div id="detalles-planeta" style="display: none;"></div>
+      <div id="opciones-planetas" style="display: none;">
+        <select id="planeta-seleccionado">
+          <!-- Opciones de planetas -->
+        </select>
+        <button id="confirmar-planeta">Confirmar Planeta</button>
+      </div>
+
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

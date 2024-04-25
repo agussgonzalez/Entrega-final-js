@@ -1,0 +1,182 @@
+/* Coloca aquí los estilos CSS con todas las correcciones realizadas */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1d2e72;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.contenedor-seleccion {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+}
+
+.contenedor-detalles {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1,
+h2 {
+  font-size: 2.5rem;
+  color: #ffd700;
+  text-shadow: 1px 1px 2px #000;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+nav {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 0;
+  }
+
+  h1,
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafafa;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  nav a:hover {
+    color: #ffd700;
+  }
+}
+
+.nave {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.nave:hover {
+  background-color: #444;
+}
+
+.seleccionado {
+  background-color: #555;
+}
+
+/* Estilos para el desplegable de selección de planetas */
+#planeta-seleccionado {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  /* Ajusta el ancho según sea necesario */
+}
+
+#planeta-seleccionado option {
+  padding: 5px;
+}
+
+/* Estilos para los iconos de los planetas */
+#planeta-seleccionado option[value="Tierra"] {
+  background-image: url('../img/tierra.png');
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  padding-left: 40px;
+  /* Ajusta el espacio según sea necesario */
+}
+
+#planeta-seleccionado option[value="Marte"] {
+  background-image: url('../img/marte.png');
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  padding-left: 40px;
+  /* Ajusta el espacio según sea necesario */
+}
+
+#planeta-seleccionado option[value="Venus"] {
+  background-image: url('../img/venus.png');
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  padding-left: 40px;
+  /* Ajusta el espacio según sea necesario */
+}
+
+#planeta-seleccionado option[value="Mercurio"] {
+  background-image: url('../mercurio.svg');
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  padding-left: 40px;
+  /* Ajusta el espacio según sea necesario */
+}
+
+/* Efecto de hover para resaltar la selección */
+#planeta-seleccionado option:hover {
+  background-color: #555;
+}
